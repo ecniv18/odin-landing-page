@@ -4,7 +4,7 @@
 
 ## todo
 - [x] Add Header section Html and Css
-- [ ] Add Hero section Html and Css
+- [x] Add Hero section Html and Css
 - [ ] Add Product showcase section Html and Css
 - [ ] Add Review section Html and Css
 - [ ] Add CTA section Html and Css
