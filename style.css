@@ -1,0 +1,48 @@
+:root {
+  --clr-bg-prime: #1f2937;
+  --clr-bg-second: #e5e7eb;
+  --clr-bg-accent: #3882f6;
+
+  --clr-txt-light: #f9faf8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.header {
+  padding: 5em 15em;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-bg-prime);
+  color: var(--clr-txt-light)
+} 
+
+.header-logo {
+  font-size: 3rem;
+}
+
+.header-links {
+  display: flex;
+  gap: 1em;
+}
