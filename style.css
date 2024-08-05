@@ -84,10 +84,6 @@ a {
   color: var(--clr-txt-dimmed);
 }
 
-.hero-text-btn {
-
-}
-
 .hero-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -99,3 +95,45 @@ a {
   height: 10rem;
   object-fit: cover;
 }
+
+.main {
+  padding: var(--container-padding);
+
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.food-section {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  place-content: center;
+  gap: 1rem;
+}
+
+.food-section-card {
+  padding: 1rem;
+  box-shadow: 1px 1px 5px var(--clr-bg-second);
+  border-radius: 5px;
+}
+
+.food-section-card-image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.food-section-card-title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 2em;
+}
+
+
+
+
+
