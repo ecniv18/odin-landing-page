@@ -45,6 +45,10 @@ a {
   color: var(--clr-txt-light)
 }
 
+.second-bg {
+  background-color: var(--clr-bg-second);
+}
+
 .header {
   padding: var(--container-padding);
   display: flex;
@@ -132,6 +136,29 @@ a {
   text-align: center;
   margin-top: 2em;
 }
+
+.reviews {
+  padding: var(--container-padding);
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.review-text {
+  font-size: 1.6rem;
+} 
+
+.review-sender {
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-self: end;
+}
+
+
+
 
 
 
