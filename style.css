@@ -186,3 +186,14 @@ a {
 .cta-action-btn {
   border: 1px solid var(--clr-txt-light);
 }
+
+.footer {
+  padding: var(--container-padding);
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.footer-top-link {
+  text-decoration: underline;
+  font-weight: bold;
+}
